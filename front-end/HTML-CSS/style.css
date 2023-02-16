@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(224, 138, 0, .1);
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: Gruppo, cursive;
+    text-align: center;
+}
+
+h2+div {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    max-height: min-content;
+    max-width: min-content;
+}
+
+#title-text {
+    font-family: Gruppo, cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#close-icon {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#close-icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover,
+button:hover {
+    color: #26877f;
+    font-weight: bold;
+}
+
+
+nav {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.column {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-basis: 33.3333%;
+    justify-content: "space-around";
+    margin: 5% 20% 10%;
+    max-height: 30%;
+}
+
+button {
+    font-family: Gruppo, cursive;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    vertical-align: middle;
+}
+
+main article,
+section {
+    background-color: rgba(224, 138, 0, .4);
+    border-radius: 5px;
+}
+
+#banner h1 {
+    font-size: 30px;
+}
+
+#banner {
+    border-radius: 0px;
+    padding: 30px;
+    margin: 0;
+    /* background-color: rgba(224, 138, 0, .6); */
+    /* background-color: #26877f; */
+    background-color: #b53434;
+    text-align: center;
+    color: white;
+}
+
+.menu li {
+    font-family: Gruppo, cursive;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    color: #26877f;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 50px;
+    font-family: Gruppo, cursive;
+}
+
+footer {
+    justify-content: space-between;
+    margin: 10%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.logo {
+    max-height: 100px;
+    max-width: 50px;
+}
