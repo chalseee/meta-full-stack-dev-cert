@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="column">
+    {% for item in menu %}
+    <p>
+        <a href="{% url 'menu_item' pk=item.pk %}">{{item.name}}</a>
+        <span class="menu-price">
+            ${{item.price}}.00
+        </span>
+    </p>
+    {% endfor %}
+</div>
+{% endblock %}
