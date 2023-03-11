@@ -1,0 +1,33 @@
+.home-banner {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #495E57;
+    padding: 5%;
+}
+
+.home-banner h1 {
+    color: #F4CE14;
+}
+
+.home-banner h2 {
+    color: white;
+}
+
+.home-banner button {
+    background-color: #F4CE14;
+    padding: 1vh;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.card-section {
+    display: inline-block;
+    width: 50%;
+    list-style-type: none;
+}
+
+.restaurant {
+    min-height: 300px;
+    min-width: 300px;
+}

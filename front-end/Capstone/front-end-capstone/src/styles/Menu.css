@@ -1,0 +1,11 @@
+.menu-banner button {
+    background-color: #F4CE14;
+    padding: 1vh;
+    border: 0px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.menu-items li {
+    list-style-type: none;
+}

@@ -1,0 +1,13 @@
+.footer {
+    background-color: #495E57;
+}
+
+footer {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+footer li {
+    list-style-type: none;
+}
